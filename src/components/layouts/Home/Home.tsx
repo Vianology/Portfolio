@@ -37,7 +37,7 @@ const Home = () => {
           <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
             <a 
               href="#contact"
-              className="btn btn-accent gap-2 sm:w-fit px-6"
+              className="btn btn-lg btn-accent gap-2 sm:w-fit px-6"
             >
               <Mail className="w-5 h-5" />
               Me contacter
@@ -46,7 +46,7 @@ const Home = () => {
             <a 
               href="public/docs/CV_AGBENONWOSSI_Kokou_Kplolali.pdf"
               download
-              className="btn btn-outline btn-accent gap-2 sm:w-fit px-6"
+              className="btn btn-lg btn-outline btn-accent gap-2 sm:w-fit px-6"
             >
               <Download className="w-5 h-5" />
               Télécharger mon CV

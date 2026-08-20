@@ -19,6 +19,9 @@ const Projects = () => {
                       <div>
                           <h3 className="my-2 font-bold">
                               {project.title}
+                            <span className="ml-2 badge badge-accent badge-outline">
+                                {project.date}
+                            </span>
                           </h3>
                           <p className="text-sm">
                               {project.description}
@@ -41,7 +44,7 @@ const Projects = () => {
                               rel="noopener noreferrer"
                               className={`btn btn-accent ${project.repoLink ? 'col-span-2' : 'col-span-3'}`}
                               >
-                              Démo
+                              Lien
                               <Link2 className="w-4 h-4 ml-1" />
                               </a>
                           )}

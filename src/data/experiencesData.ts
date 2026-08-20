@@ -1,5 +1,5 @@
 import type { Experience } from '../types/experiencesType';
-import {Cpu } from 'lucide-react';
+import {Cpu} from 'lucide-react';
 
 import coopledger from '../assets/companies/coopledger.png';
 

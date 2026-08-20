@@ -9,7 +9,7 @@ import javaImg from '../assets/techno/java.png'
 import cImg from '../assets/techno/c.png'
 import mysqlImg from '../assets/techno/mysql.png'
 import postgresqlImg from '../assets/techno/postgresql.png'
-
+import arduinoSvg from '../assets/techno/arduino.svg'
 
 export const SKILLS_DATA: Skill[] = [
   {
@@ -65,6 +65,12 @@ export const SKILLS_DATA: Skill[] = [
     name: 'PostgreSql',
     category: 'database',
     image: postgresqlImg,
+  },
+  {
+    id: 10,
+    name: 'Arduino',
+    category: 'embeded',
+    image: arduinoSvg,
   },
 
 ];

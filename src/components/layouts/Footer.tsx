@@ -34,7 +34,7 @@ const Footer = () => {
   return (
     <footer id="footer" className="footer footer-horizontal footer-center bg-base-300 text-base-content p-15">
       <aside className="flex flex-col items-center gap-1">
-        <a href="#home" className="flex items-center font-bold text-3xl md:text-5xl">
+        <a href="#home" className="flex items-center font-bold text-2xl md:text-5xl">
           <span className="text-accent">___</span>
           vianology
           <span className="text-accent">___</span>

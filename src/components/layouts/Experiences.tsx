@@ -10,13 +10,13 @@ const Experiences = () => {
 
         <div className="flex flex-col-reverse md:flex-row md:justify-between items-center md:items-start gap-6">
           {/* Compétences techniques */}
-          <div className="grid grid-cols-3 gap-4 justify-items-center w-full md:w-auto md:max-w-xs mt-4 md:mt-0">
+          <div className="grid grid-cols-3 gap-4 justify-items-center items-start w-full md:w-auto md:max-w-xs mt-4 md:mt-0">
             {SKILLS_DATA.map((skill) => {
               const Icon = skill.icon;
               return (
                 <div
                   key={skill.id}
-                  className="flex flex-col items-center justify-center"
+                  className="flex flex-col items-center"
                 >
                   <div className="flex items-center justify-center w-20 h-20 p-2 rounded-xl border-2 border-accent shrink-0">
                     {Icon ? (
@@ -29,7 +29,7 @@ const Experiences = () => {
                       />
                     ) : null}
                   </div>
-                  <span className="mt-2 text-sm font-medium text-center">
+                  <span className="mt-2 text-sm font-medium text-center leading-tight flex items-start justify-center h-8 w-full">
                     {skill.name}
                   </span>
                 </div>
